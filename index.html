@@ -46,8 +46,9 @@ figure{margin:0}
 .gallery .tall img{aspect-ratio:3/4}
 .shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:26px 0 20px}.book{background:var(--ink);border:2px solid var(--gold);padding:18px;display:flex;flex-direction:column}.book img{width:100%;aspect-ratio:2/3;object-fit:contain;background:#fff;margin-bottom:14px}.book h3{font-size:1.25rem;margin-bottom:8px}.book p{flex:1;margin:0 0 14px;color:var(--mute)}.book .btn{align-self:flex-start;margin:0}
 .stack{display:grid;gap:22px}
+.embeds{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:26px 0}.embeds h3{font-size:1.2rem;margin-bottom:10px}.embeds iframe{display:block;border:0}
 footer{background:var(--ink);padding:36px 0;color:var(--mute);border-top:6px solid var(--red)}
-@media(max-width:780px){.hero .wrap,.two,.fights{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.shelf{grid-template-columns:1fr}.cover{max-width:420px;margin:0 auto}section{padding:48px 0}}
+@media(max-width:780px){.hero .wrap,.two,.fights{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.shelf,.embeds{grid-template-columns:1fr}.cover{max-width:420px;margin:0 auto}section{padding:48px 0}}
 @media(prefers-reduced-motion:reduce){.cover{animation:none}html{scroll-behavior:auto}}
 </style></head>
 <body>
@@ -68,6 +69,10 @@ footer{background:var(--ink);padding:36px 0;color:var(--mute);border-top:6px sol
 <p class="lead">This podcast has it all: medical drama, police chases, vigilante justice, mutant wrestling, full body white line massage, some real hillbilly shit, and much much more!!! Follow along as Mark D. Hadley recounts stories from his life. Each one wilder than the next.</p>
 <div class="player">
 <iframe src="https://player.rss.com/statutes-of-limitation-dukes-of-hadley/latest?theme=color&v=2" height="202" title="Statutes of Limitation - Dukes of Hadley" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
+</div>
+<div class="embeds">
+<div><h3>Apple Podcasts</h3><iframe title="Statutes of Limitation - Dukes of Hadley on Apple Podcasts" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;border-radius:10px;background:transparent" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/statutes-of-limitation-dukes-of-hadley/id6819831687"></iframe></div>
+<div><h3>Spotify</h3><iframe title="Statutes of Limitation - Dukes of Hadley on Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/show/7uh7oSLaB4ckJSEjR535he?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
 </div>
 <p class="listen"><a class="btn" href="https://podcasts.apple.com/us/podcast/statutes-of-limitation-dukes-of-hadley/id6819831687">Listen on Apple Podcasts</a><a class="btn" href="https://open.spotify.com/show/7uh7oSLaB4ckJSEjR535he">Listen on Spotify</a><a class="btn alt" href="https://rss.com/podcasts/statutes-of-limitation-dukes-of-hadley/latest/">Latest episode on RSS.com</a></p>
 <p class="lead">Enjoying it? A rating or review on <a href="https://podcasts.apple.com/us/podcast/statutes-of-limitation-dukes-of-hadley/id6819831687">Apple Podcasts</a> helps more people find the show, and you can follow and comment on <a href="https://open.spotify.com/show/7uh7oSLaB4ckJSEjR535he">Spotify</a>.</p>
