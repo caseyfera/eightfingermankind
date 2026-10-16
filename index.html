@@ -45,15 +45,16 @@ figure{margin:0}
 .gallery img{width:100%;height:100%;object-fit:cover;aspect-ratio:4/3;border:4px solid var(--sepia)}
 .gallery .tall img{aspect-ratio:3/4}
 .shelf{display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin:26px 0 20px}.book{background:var(--ink);border:2px solid var(--gold);padding:18px;display:flex;flex-direction:column}.book img{width:100%;aspect-ratio:2/3;object-fit:contain;background:#fff;margin-bottom:14px}.book h3{font-size:1.25rem;margin-bottom:8px}.book p{flex:1;margin:0 0 14px;color:var(--mute)}.book .btn{align-self:flex-start;margin:0}
-.stack{display:grid;gap:22px}
+.stack{display:grid;gap:22px}.bc{background:#fff;border:3px solid #8c1a12;box-shadow:6px 6px 0 rgba(0,0,0,.35);margin:22px 0}.bc iframe{display:block}
 .embeds{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:26px 0}.embeds h3{font-size:1.2rem;margin-bottom:10px}.embeds iframe{display:block;border:0}
+.vh{font-size:1.5rem;margin:34px 0 14px}.video{position:relative;aspect-ratio:16/9;border:3px solid var(--gold);background:#000;box-shadow:8px 8px 0 var(--red);margin-bottom:26px}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 footer{background:var(--ink);padding:36px 0;color:var(--mute);border-top:6px solid var(--red)}
 @media(max-width:780px){.hero .wrap,.two,.fights{grid-template-columns:1fr}.gallery{grid-template-columns:1fr 1fr}.shelf,.embeds{grid-template-columns:1fr}.cover{max-width:420px;margin:0 auto}section{padding:48px 0}}
 @media(prefers-reduced-motion:reduce){.cover{animation:none}html{scroll-behavior:auto}}
 </style></head>
 <body>
 <header class="hero">
-<nav aria-label="Main"><a href="#podcast">Podcast</a><a href="#film">Zuri's Pride</a><a href="#ring">In the ring</a><a href="#books">Books</a><a href="#about">About Mark</a></nav>
+<nav aria-label="Main"><a href="#podcast">Podcast</a><a href="#film">Zuri's Pride</a><a href="#ring">In the ring</a><a href="#music">Music</a><a href="#books">Books</a><a href="#about">About Mark</a></nav>
 <div class="wrap">
 <div>
 <h1>8 Finger Mankind</h1>
@@ -70,6 +71,9 @@ footer{background:var(--ink);padding:36px 0;color:var(--mute);border-top:6px sol
 <div class="player">
 <iframe src="https://player.rss.com/statutes-of-limitation-dukes-of-hadley/latest?theme=color&v=2" height="202" title="Statutes of Limitation - Dukes of Hadley" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen scrolling="no"></iframe>
 </div>
+<h3 class="vh">Episode 1 on video</h3>
+<div class="video"><iframe src="https://www.youtube.com/embed/w7uxFuL4KYU?si=cIi3diV0RERjbaTc" title="Statutes of Limitation - Dukes of Hadley, Episode 1 (video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe></div>
+<p><a class="btn alt" href="https://www.youtube.com/watch?v=w7uxFuL4KYU">Watch Episode 1 on YouTube</a></p>
 <div class="embeds">
 <div><h3>Apple Podcasts</h3><iframe title="Statutes of Limitation - Dukes of Hadley on Apple Podcasts" allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;border-radius:10px;background:transparent" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/statutes-of-limitation-dukes-of-hadley/id6819831687"></iframe></div>
 <div><h3>Spotify</h3><iframe title="Statutes of Limitation - Dukes of Hadley on Spotify" style="border-radius:12px" src="https://open.spotify.com/embed/show/7uh7oSLaB4ckJSEjR535he?utm_source=generator" width="100%" height="352" frameborder="0" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe></div>
@@ -93,6 +97,13 @@ footer{background:var(--ink);padding:36px 0;color:var(--mute);border-top:6px sol
 <div class="fight"><h3>2005: Fight of the Century</h3><a class="btn" href="https://www.youtube.com/watch?v=ggpkMirpVGw">Watch the 2005 fight</a></div>
 <div class="fight"><h3>2006: Fight of the Century II</h3><a class="btn" href="https://www.youtube.com/watch?v=my2ULSOjQpU">Watch the 2006 fight</a></div>
 </div>
+</div></section>
+
+<section id="music" class="sepia"><div class="wrap">
+<h2>Music</h2>
+<p class="lead">Mark makes music too. Press play on "Moonsine (jazz version)."</p>
+<div class="bc"><iframe style="border:0;width:100%;height:120px" src="https://bandcamp.com/EmbeddedPlayer/track=3856277056/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" title="Moonsine (jazz version) by Mark D Hadley" seamless loading="lazy"><a href="https://markdhadley.bandcamp.com/track/moonsine-jazz-version">Moonsine (jazz version) by Mark D Hadley</a></iframe></div>
+<p><a class="btn" href="https://markdhadley.bandcamp.com/track/moonsine-jazz-version">Listen on Bandcamp</a></p>
 </div></section>
 
 <section id="books"><div class="wrap">
